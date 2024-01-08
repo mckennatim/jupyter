@@ -358,6 +358,12 @@ print(f"To create {Btuyr22dd :,.0f} Btu/yr at a COP of {COP:.1f} will require \
 I was just told the only time a heat exchanger would be necessary is turn of century 1900 registers or water based only registers.
 ![](./Artic%20030ZA(BEH2).png)
 
+Hi Tim,
+
+Thanks for the info on the Artic 030ZA(BEH2).
+
+In looking at the house presently heated with 7 zones of hydronic, I have done a bit of analysis. I have been predicting {{Btuyr22dd}}
+
 While COP is `power_out/power_in` at an instant in time only at a particular outdoor temperatures , we can use to as a rough measure of the relationship of enery_out/ energy_in over a heating season and compare btu_out/kw_in. Given a COP value and knowing the Btu/yr required, we can guess the electrical use for the year(`kw/yr`) and then the `cost/yr`
 
 (9)$$kwh/yr = \frac{Btu/yr}{COP*3412Btu/kw}$$ 
